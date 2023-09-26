@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(0,3,148,1) 0%, rgba(161,53,255,1) 84%, rgba(231,86,240,1) 99%);
+}
+
+.Wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Headings {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.Username input,
+.Password input {
+    width: 250px;
+    height: 30px;
+}
+
+.Username input::placeholder,
+.Password input::placeholder {
+    color: black;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.Username, .Password {
+    display: flex;
+    align-items: center;
+}
+
+.Input-Sections {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Remember {
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+}
+
+.Remember-Forgot {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.Forgot a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Login-Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Login {
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: purple;
+    border: 1px solid white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Remember input {
+    cursor: pointer;
+}
